@@ -1,4 +1,5 @@
 name: "Sue's website"
+output_dir: "."
 navbar:
   title: "Sue Website"
   left:
