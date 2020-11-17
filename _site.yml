@@ -1,10 +1,19 @@
 name: "Sue's website"
 output_dir: "."
 navbar:
-  title: "Sue Website"
+  title: "My Website"
   left:
-    - text: "Home"
+    - icon: fa-home
       href: index.html
+    - text: "About"
+      href: about.html
+  right:
+    - text: "External website"
+    - href: www.google.com
 output:
   html_document:
-    theme: readable
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
